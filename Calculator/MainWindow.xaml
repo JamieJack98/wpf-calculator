@@ -120,12 +120,14 @@
                 Grid.Column="3"
                 Margin="5"/>
         <Button x:Name ="zeroButton" 
+                Click="numberButton_Click"
                 Content="0"
                 Grid.Row="5"
                 Grid.Column="0"
                 Margin="5"
                 Grid.ColumnSpan="2"/>
         <Button x:Name ="decimalButton" 
+                Click="decimalButton_Click"
                 Content="."
                 Grid.Row="5"
                 Grid.Column="2"
